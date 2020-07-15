@@ -16,7 +16,7 @@ class Experiment:
 
 @click.command()
 def main(*args, **kwargs):
-    """Some docs"""
+    """Some docs xyz"""
     pass
 
 
