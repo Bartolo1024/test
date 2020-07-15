@@ -22,7 +22,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
     - name: Build and Deploy
-      uses: JacksonMaxfield/github-pages-deploy-action-python@master
+      uses: bartolo1024/github-pages-deploy-action-python@master
       env:
         ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BASE_BRANCH: master # The branch the action should deploy from.
