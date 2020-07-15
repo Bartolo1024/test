@@ -22,6 +22,14 @@ def test_method_2(x, y):
     print('I am a test method 2')
 
 
+def test_method_3(x, y):
+    """
+    :param x: x
+    :param y: y
+    """
+    print('I am a test method 3')
+
+
 @click.command()
 def main(*args, **kwargs):
     """Some docs xyz"""
