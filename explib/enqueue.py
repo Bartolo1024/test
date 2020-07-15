@@ -14,10 +14,19 @@ def test_method(x: int, y: int):
     print('I am a test method')
 
 
+def test_method_2(x, y):
+    """
+    :param x - x:
+    :param y - y:
+    """
+    print('I am a test method 2')
+
+
 @click.command()
 def main(*args, **kwargs):
     """Some docs xyz"""
-    pass
+    test_method(1, 2)
+    test_method_2(1, 2)
 
 
 if __name__ == '__main__':
