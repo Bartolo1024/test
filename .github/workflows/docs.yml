@@ -1,5 +1,5 @@
 # This workflow will build docs and push it to branch gh-pages
-# For more information see: https://github.com/marketplace/actions/deploy-to-github-pages-python
+# For more information see: https://github.com/marketplace/actions/github-pages-action
 
 name: Build and Deploy
 on:
