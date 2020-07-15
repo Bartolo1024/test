@@ -1,17 +1,5 @@
 import click
-
-
-class Experiment:
-    def __init__(run_id: str):
-        """
-        Args:
-            run_id: experiment id
-        """
-        self.run_id = run_id
-
-    def run():
-        """Run the experiment"""
-        pass
+from . import experiment
 
 
 @click.command()
