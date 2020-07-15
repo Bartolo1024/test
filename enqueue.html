@@ -42,10 +42,19 @@ def test_method(x: int, y: int):
     print(&#39;I am a test method&#39;)
 
 
+def test_method_2(x, y):
+    &#34;&#34;&#34;
+    :param x - x:
+    :param y - y:
+    &#34;&#34;&#34;
+    print(&#39;I am a test method 2&#39;)
+
+
 @click.command()
 def main(*args, **kwargs):
     &#34;&#34;&#34;Some docs xyz&#34;&#34;&#34;
-    pass
+    test_method(1, 2)
+    test_method_2(1, 2)
 
 
 if __name__ == &#39;__main__&#39;:
@@ -88,6 +97,24 @@ if __name__ == &#39;__main__&#39;:
     print(&#39;I am a test method&#39;)</code></pre>
 </details>
 </dd>
+<dt id="explib.enqueue.test_method_2"><code class="name flex">
+<span>def <span class="ident">test_method_2</span></span>(<span>x, y)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>:param x - x:
+:param y - y:</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def test_method_2(x, y):
+    &#34;&#34;&#34;
+    :param x - x:
+    :param y - y:
+    &#34;&#34;&#34;
+    print(&#39;I am a test method 2&#39;)</code></pre>
+</details>
+</dd>
 </dl>
 </section>
 <section>
@@ -107,6 +134,7 @@ if __name__ == &#39;__main__&#39;:
 <li><h3><a href="#header-functions">Functions</a></h3>
 <ul class="">
 <li><code><a title="explib.enqueue.test_method" href="#explib.enqueue.test_method">test_method</a></code></li>
+<li><code><a title="explib.enqueue.test_method_2" href="#explib.enqueue.test_method_2">test_method_2</a></code></li>
 </ul>
 </li>
 </ul>
