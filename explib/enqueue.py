@@ -2,18 +2,16 @@ import click
 from . import experiment
 
 
-def test_method():
-  """
-  This is a test method
+def test_method(x: int, y: int):
+    """
+    Args:
+        x: xxx
+        y: yyy
 
-  | Arguments:
-  | arg1: arg1 description
-  | arg2: arg2 description
-
-  | Returns:
-  | None
-  """
-  print('I am a test method')
+    Returns:
+        None
+    """
+    print('I am a test method')
 
 
 @click.command()
