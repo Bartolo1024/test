@@ -30,6 +30,18 @@ def test_method_3(x, y):
     print('I am a test method 3')
 
 
+def test_method_4(x:int, y: int):
+    """
+    Parameters
+    ----------
+    x : type
+        Description of parameter `x`.
+    y
+        Description of parameter `y` (with type not specified)
+    """
+    print('I am a test method 4')
+
+
 @click.command()
 def main(*args, **kwargs):
     """Some docs xyz"""
