@@ -22,8 +22,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
     - name: Generate docs
-        run: |
-          pdoc3 --html explib --force --output-dir docs --skip-errors
+      run: |
+        pdoc3 --html explib --force --output-dir docs --skip-errors
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
