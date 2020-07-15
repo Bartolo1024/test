@@ -58,6 +58,18 @@ def test_method_3(x, y):
     print(&#39;I am a test method 3&#39;)
 
 
+def test_method_4(x:int, y: int):
+    &#34;&#34;&#34;
+    Parameters
+    ----------
+    x : type
+        Description of parameter `x`.
+    y
+        Description of parameter `y` (with type not specified)
+    &#34;&#34;&#34;
+    print(&#39;I am a test method 4&#39;)
+
+
 @click.command()
 def main(*args, **kwargs):
     &#34;&#34;&#34;Some docs xyz&#34;&#34;&#34;
@@ -141,6 +153,33 @@ if __name__ == &#39;__main__&#39;:
     print(&#39;I am a test method 3&#39;)</code></pre>
 </details>
 </dd>
+<dt id="explib.enqueue.test_method_4"><code class="name flex">
+<span>def <span class="ident">test_method_4</span></span>(<span>x: int, y: int)</span>
+</code></dt>
+<dd>
+<div class="desc"><h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>x</code></strong> :&ensp;<code>type</code></dt>
+<dd>Description of parameter <code>x</code>.</dd>
+<dt><strong><code>y</code></strong></dt>
+<dd>Description of parameter <code>y</code> (with type not specified)</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def test_method_4(x:int, y: int):
+    &#34;&#34;&#34;
+    Parameters
+    ----------
+    x : type
+        Description of parameter `x`.
+    y
+        Description of parameter `y` (with type not specified)
+    &#34;&#34;&#34;
+    print(&#39;I am a test method 4&#39;)</code></pre>
+</details>
+</dd>
 </dl>
 </section>
 <section>
@@ -162,6 +201,7 @@ if __name__ == &#39;__main__&#39;:
 <li><code><a title="explib.enqueue.test_method" href="#explib.enqueue.test_method">test_method</a></code></li>
 <li><code><a title="explib.enqueue.test_method_2" href="#explib.enqueue.test_method_2">test_method_2</a></code></li>
 <li><code><a title="explib.enqueue.test_method_3" href="#explib.enqueue.test_method_3">test_method_3</a></code></li>
+<li><code><a title="explib.enqueue.test_method_4" href="#explib.enqueue.test_method_4">test_method_4</a></code></li>
 </ul>
 </li>
 </ul>
