@@ -3,7 +3,7 @@ from . import experiment
 
 
 def test_method(x: int, y: int):
-    """
+    """ Google
     Args:
         x: xxx
         y: yyy
@@ -15,7 +15,7 @@ def test_method(x: int, y: int):
 
 
 def test_method_2(x, y):
-    """
+    """ PEP
     :param x - x:
     :param y - y:
     """
@@ -31,7 +31,7 @@ def test_method_3(x, y):
 
 
 def test_method_4(x:int, y: int):
-    """
+    """ Numpy
     Parameters
     ----------
     x : type
