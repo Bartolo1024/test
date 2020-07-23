@@ -1,3 +1,3 @@
 """
-#![doc(include = "../Readme.md")]
+.. include:: ../Readme.md
 """
